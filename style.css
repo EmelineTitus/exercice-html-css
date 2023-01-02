@@ -1,0 +1,108 @@
+/* Padding below the footer and lighter body text */
+
+body {
+  color: #5a5a5a;
+  margin-top: 3em;
+}
+
+p {
+  text-shadow: 6px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.description-evenement {
+  text-align: center;
+}
+/* STYLE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;      
+  width: 100%;
+  height: auto;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  min-width: 100%;
+ 
+}
+
+
+.presentation {
+  background-color: #ecece8;
+}
+
+h2{
+  text-align: center;
+}
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; 
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+a {
+  text-decoration: none;
+ }
+ a:link {
+   color: white;
+ }
+ 
+ a:visited {
+   color: #fbfff8;
+ }
+ 
+ a:hover {
+   border-bottom: 1px solid;
+   background: #32363b;
+ }
+ 
+ a:active {
+   background: #ffc131;
+   color: #ffffff;
+ }
+
+footer {
+ background-color: #212529;
+ padding: 4rem;
+ margin-top: 10em;
+ color: white;
+}
