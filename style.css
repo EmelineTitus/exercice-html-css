@@ -140,11 +140,12 @@ footer {
       display: flex;
       margin: auto;
     }
-    .canicross {
+    .canicross-left, .canicross-right {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
     }
+    
   
     iframe {
       width: 100%;
