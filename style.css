@@ -162,11 +162,18 @@ footer {
         margin: auto;
       }
   
-      .canicross {
-        width: 500px;
+      .canicross-left {
+        width: 600px;
         height: auto;
-        margin-left: 9rem;
-        margin-top: 2rem;
+        margin-left: 2rem;
+        float: left;
+      }
+
+      .canicross-right {
+        width: 600px;
+        height: auto;
+        margin-right: 2rem;
+        float: right; 
       }
       
     .featurette-heading {
@@ -181,7 +188,7 @@ footer {
   }
   
   .row {
-    margin-left: 10px;
+    margin: auto;
     
   
   }
