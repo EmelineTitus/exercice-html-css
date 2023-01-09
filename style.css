@@ -197,14 +197,12 @@ a {
     }
     h1 {
       text-align: center;
-      padding-top: 120px;
-      margin-top: 50px;
+      margin-top: 20px;
       margin-bottom: 2%;
     
     }
     body {
       color: #5a5a5a;
-      padding-top: 100px;
     }
   }
     @media (min-width: 768px) {
